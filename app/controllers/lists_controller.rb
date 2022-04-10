@@ -14,6 +14,7 @@ def create
 end
 
   def index
+    @lists = List
   end
 
   def show
